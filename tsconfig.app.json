@@ -21,7 +21,7 @@
         "noUncheckedSideEffectImports": true,
         "baseUrl": "src",
         "paths": {
-            "~/*": ["./*"]
+            "~constants": ["./constants"]
         }
     },
     "include": ["src"]
