@@ -6,7 +6,8 @@ export default defineConfig({
     plugins: [react()],
     resolve: {
         alias: {
-            "~constants": resolve(__dirname, "src/constants")
+            "~constants": resolve(__dirname, "src/constants"),
+            "~styles": resolve(__dirname, "src/styles")
         }
     }
 });

@@ -1,7 +1,12 @@
+import { GlobalStyle } from "~styles";
+
 export function App() {
     return (
-        <div>
-            <p>App</p>
-        </div>
+        <>
+            <GlobalStyle />
+            <div>
+                <p>App</p>
+            </div>
+        </>
     );
 }

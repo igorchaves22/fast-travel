@@ -21,7 +21,8 @@
         "noUncheckedSideEffectImports": true,
         "baseUrl": "src",
         "paths": {
-            "~constants": ["./constants"]
+            "~constants": ["./constants"],
+            "~styles": ["./styles"]
         }
     },
     "include": ["src"]
