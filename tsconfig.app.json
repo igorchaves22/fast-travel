@@ -21,7 +21,10 @@
         "noUncheckedSideEffectImports": true,
         "baseUrl": "src",
         "paths": {
+            "~components/*": ["./components/*"],
             "~constants": ["./constants"],
+            "~pages": ["./pages"],
+            "~router": ["./router"],
             "~styles": ["./styles"]
         }
     },
